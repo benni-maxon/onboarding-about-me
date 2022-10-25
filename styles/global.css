@@ -1,6 +1,6 @@
 :root {
-    --background: rgb(224, 234, 247);
-    --header-background: rgb(254, 251, 245);
+    --background: rgb(89, 115, 151);
+    --header-background: rgb(84, 151, 93);
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
 }
@@ -16,7 +16,7 @@ header {
     position: sticky;
     top: 0;
     padding: 15px;
-    height: 80px;
+    height: 120px;
 
     display: flex;
     align-items: center;
@@ -32,4 +32,36 @@ header .logo {
 
 main {
     padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 5em;
+    font-family: fantasy;
+}
+
+#wow {
+    background-color: transparent;
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+#cool {
+    background-color: transparent;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: right;
+}
+
+#benni {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
